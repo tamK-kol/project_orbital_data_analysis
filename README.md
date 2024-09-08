@@ -10,9 +10,10 @@ The dataset contains two columns: 'Datetime' and 'SMA.' The 'Datetime' column is
 Feature Extraction
 For each window of data, we extract three features:
 
-Mean SMA: The average SMA value within the window.
-Standard Deviation of SMA: Measures the variability of SMA within the window.
-Slope of SMA: The rate of change of SMA over the window, calculated as the difference between the first and last SMA values divided by the window size.
+* Mean SMA: The average SMA value within the window.
+* Standard Deviation of SMA: Measures the variability of SMA within the window.
+* Slope of SMA: The rate of change of SMA over the window, calculated as the difference between the first and last SMA values divided by the window size.
+  
 These features are selected because they capture both the central tendency and the dynamics of SMA within the time window, which are indicative of potential maneuvers.
 
 ### Labeling
