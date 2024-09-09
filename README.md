@@ -26,3 +26,5 @@ A RandomForestClassifier was chosen due to its robustness in handling feature va
 
 ### Results
 The model achieved an accuracy of 99.6% on the test set, indicating that it was highly effective at distinguishing between maneuver and non-maneuver events based on the features extracted from SMA data.
+
+Note: Follow the .ipynb file
