@@ -1,5 +1,7 @@
 ## Detecting Orbital Maneuvers Using SMA Data By Tamal Koley
 
+![alt text](image.png)
+
 ### Introduction
 The goal of this project is to develop an automatic method to detect orbital maneuvers, such as engine burns or orientation adjustments, using only the variation of the semi-major axis (SMA) over time. Maneuvers are identified based on significant changes in SMA, using machine learning to recognize these variations effectively.
 
